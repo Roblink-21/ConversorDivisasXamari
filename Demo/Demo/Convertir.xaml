@@ -3,31 +3,52 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Demo.Convertir">
     <Grid BackgroundColor="LightBlue">
-        <StackLayout VerticalOptions="Center" Margin="20" Spacing="30">
-            <Image Source="https://cdn-icons-png.flaticon.com/512/139/139706.png"/>
+        <ScrollView >
+            <StackLayout VerticalOptions="Center" Margin="20" Spacing="15">
+            <Image Source="https://cdn-icons-png.flaticon.com/512/5117/5117313.png" />
 
             <Frame HasShadow="False" CornerRadius="10">
                 <Entry Keyboard="Numeric" 
                        Placeholder="Ingrese la cantidad *"
                        TextColor="Black"
                        PlaceholderColor="Silver"
-                       FontSize="Large"
+                       FontSize="Medium"
                        x:Name="txtcm"/>
             </Frame>
 
-            <Picker Title="CEO"
+            <Label Text="De: "
+                       FontSize="20"
+                       FontAttributes="Bold"
+                     
+                       />
+            <Frame HasShadow="False" CornerRadius="10" AnchorY="15">
+                <Picker Title="Elija la Moneda *"
                     x:Name="ceoPicker"
-                    TitleColor="Red"
+                    TitleColor="Black"
                     ItemDisplayBinding="{Binding Name}"
-                    >
-            </Picker>
+                        FontSize="Small"
+                    BackgroundColor="White">
+                </Picker>
+            </Frame>
+           
+            
+            <Label Text="a"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       />
 
-            <Picker Title="CEO"
+            <Frame HasShadow="False" CornerRadius="10">
+                <Picker Title="Elija la Moneda *"
                     x:Name="ceoPicker2"
-                    TitleColor="Red"
+                    TitleColor="Black"
+                    BackgroundColor="White"
                     ItemDisplayBinding="{Binding Name}"
+                    FontSize="Small"
                     >
-            </Picker>
+                </Picker>
+
+            </Frame>
+           
 
             <Button Text="Calcular"
                     CornerRadius="10"
@@ -43,29 +64,17 @@
 
             <StackLayout Orientation="Horizontal">
                 <Label Text="Resultado: "
-                       FontSize="Medium"
+                       FontSize="Large"
                        FontAttributes="Bold"
                        VerticalOptions="Center"/>
                 <Label Text="0.0"
-                       FontSize="Medium"
+                       FontSize="Large"
                        FontAttributes="Bold"
                        VerticalOptions="Center"
                        x:Name="reslbl"/>
             </StackLayout>
 
-            <Button 
-                Text="Regresar"
-                TextTransform="None"
-                BackgroundColor="White"
-                FontAttributes="Bold"
-                HorizontalOptions="Center"
-                CornerRadius="10"
-                x:Name="btnVolver"
-                Clicked="btnVolver_Clicked"/>
-
-            
-
-
         </StackLayout>
+        </ScrollView>
     </Grid>
 </ContentPage>

@@ -3,16 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Demo.MainPage"
              NavigationPage.HasNavigationBar="False">
-
-    <StackLayout Orientation="Vertical" 
+    <ScrollView Grid.Row="1">
+        <StackLayout Orientation="Vertical" 
                  BackgroundColor="Azure" >
 
-        <Label Text="Convertidor"
+        <Label Text="Conversor de Divisas"
                FontSize="40"
                FontAttributes="Bold"
                Margin="0,20,0,0"
                HorizontalOptions="CenterAndExpand"
                />
+        
         
         <Frame VerticalOptions="FillAndExpand"
                Margin="10,10,10,10"
@@ -20,12 +21,15 @@
                HasShadow="False"
                >
             <StackLayout VerticalOptions="Center" Spacing="15">
-                <Image Source="https://www.eluniverso.com/resizer/L1OplhGB4exRq8l1As9VoOwnc1k=/1002x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/YJRXULH4PFGRBGT4YYZ7UKD4H4.jpg"/>
-                <Label Text="de divisas"
-                       FontSize="40"
+
+                <Label Text="Le damos la bienvenida a la herramienta de divisas más fiable del mundo."
+                       FontSize="20"
                        FontAttributes="Bold"
                        HorizontalOptions="CenterAndExpand"
                        />
+
+                <Image Source="https://cdn-icons-png.flaticon.com/512/5180/5180806.png"/>
+                
                 <Button Text="Empezar"
                         BackgroundColor="Silver"
                         CornerRadius="10"
@@ -34,5 +38,6 @@
         </Frame>
        
     </StackLayout>
+    </ScrollView>
 
 </ContentPage>
