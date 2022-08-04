@@ -15,6 +15,7 @@ Esta aplicación desarrollada en Xamarin.Forms nos permite realizar la conversi�
  
   ![image](https://user-images.githubusercontent.com/58127103/182954174-760aa0f1-6b18-41fa-8644-e9adb0efe1a7.png)
 
+Debemos ingresar la cantidad, seleccionar el tipo de moneda que se está ingresando y selecionar al tipo de moneda que se desea realizar la conversión.
 
 # MainPage
 
