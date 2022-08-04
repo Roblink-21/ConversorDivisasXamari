@@ -4,7 +4,7 @@
   - Roberth Pincha
   - Luis Jacome
   
-# Detaller
+# Detalle
 
 Esta aplicación desarrollada en Xamarin.Forms nos permite realizar la conversión de 5 monedas diferentes:
   - Euro
@@ -12,6 +12,9 @@ Esta aplicación desarrollada en Xamarin.Forms nos permite realizar la conversi�
   - Libra esterlina
   - Peso colombiano
   - Peso chileno
+  -
+  ![image](https://user-images.githubusercontent.com/58127103/182954174-760aa0f1-6b18-41fa-8644-e9adb0efe1a7.png)
+
 
 # MainPage
 
