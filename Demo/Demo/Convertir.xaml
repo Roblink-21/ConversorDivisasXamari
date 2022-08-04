@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.Convertir">
+    <Grid BackgroundColor="LightBlue">
+        <StackLayout VerticalOptions="Center" Margin="20" Spacing="30">
+            <Image Source="https://cdn-icons-png.flaticon.com/512/139/139706.png"/>
+
+            <Frame HasShadow="False" CornerRadius="10">
+                <Entry Keyboard="Numeric" 
+                       Placeholder="Ingrese la cantidad *"
+                       TextColor="Black"
+                       PlaceholderColor="Silver"
+                       FontSize="Large"
+                       x:Name="txtcm"/>
+            </Frame>
+
+            <Picker Title="CEO"
+                    x:Name="ceoPicker"
+                    TitleColor="Red"
+                    ItemDisplayBinding="{Binding Name}"
+                    >
+            </Picker>
+
+            <Picker Title="CEO"
+                    x:Name="ceoPicker2"
+                    TitleColor="Red"
+                    ItemDisplayBinding="{Binding Name}"
+                    >
+            </Picker>
+
+            <Button Text="Calcular"
+                    CornerRadius="10"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    TextTransform="None"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    x:Name="btnCalcular"
+                    Clicked="ceoPicker_SelectedIndexChanged"
+            />
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado: "
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Medium"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl"/>
+            </StackLayout>
+
+            <Button 
+                Text="Regresar"
+                TextTransform="None"
+                BackgroundColor="White"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                CornerRadius="10"
+                x:Name="btnVolver"
+                Clicked="btnVolver_Clicked"/>
+
+            
+
+
+        </StackLayout>
+    </Grid>
+</ContentPage>

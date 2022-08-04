@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout Orientation="Vertical" 
+                 BackgroundColor="Azure" >
+
+        <Label Text="Convertidor"
+               FontSize="40"
+               FontAttributes="Bold"
+                Margin="0,20,0,0"
+               HorizontalOptions="CenterAndExpand"
+               />
+        
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="10,10,10,10"
+               CornerRadius ="20"
+               HasShadow="False"
+               >
+            <StackLayout VerticalOptions="Center" Spacing="15">
+                <Image Source="https://www.eluniverso.com/resizer/L1OplhGB4exRq8l1As9VoOwnc1k=/1002x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/YJRXULH4PFGRBGT4YYZ7UKD4H4.jpg"/>
+                <Label Text="cm a m"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Button Text="Empezar"
+                        BackgroundColor="Silver"
+                        CornerRadius="10"
+                        Clicked="Button_Empezar_Clicked"/>
+            </StackLayout>
+        </Frame>
+       
+    </StackLayout>
+
+</ContentPage>
