@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\Demo.Android.csproj": {}
+    "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\Demo.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\Demo.Android.csproj": {
+    "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\Demo.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\Demo.Android.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\Demo.Android.csproj",
         "projectName": "Demo.Android",
-        "projectPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\Demo.Android.csproj",
-        "packagesPath": "C:\\Users\\SKY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\Demo.Android.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\SKY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj": {
-                "projectPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj"
+              "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj": {
+                "projectPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj"
               }
             }
           }
@@ -50,17 +50,17 @@
         }
       }
     },
-    "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj": {
+    "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj",
-        "packagesPath": "C:\\Users\\SKY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SKY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +111,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

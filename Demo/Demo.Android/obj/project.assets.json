@@ -3172,20 +3172,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SKY\\.nuget\\packages\\": {}
+    "C:\\Users\\anton\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\Demo.Android.csproj",
+      "projectUniqueName": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\Demo.Android.csproj",
       "projectName": "Demo.Android",
-      "projectPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\Demo.Android.csproj",
-      "packagesPath": "C:\\Users\\SKY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo.Android\\obj\\",
+      "projectPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\Demo.Android.csproj",
+      "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\SKY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3198,8 +3198,8 @@
       "frameworks": {
         "monoandroid12.0": {
           "projectReferences": {
-            "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj": {
-              "projectPath": "C:\\Users\\SKY\\Documents\\EPN_5Semestre\\AppMovile\\XAMARI\\Demo\\Demo\\Demo\\Demo.csproj"
+            "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj": {
+              "projectPath": "C:\\Users\\anton\\Source\\Repos\\ConversorDivisasXamari\\Demo\\Demo\\Demo.csproj"
             }
           }
         }

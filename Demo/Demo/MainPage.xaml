@@ -10,7 +10,7 @@
         <Label Text="Convertidor"
                FontSize="40"
                FontAttributes="Bold"
-                Margin="0,20,0,0"
+               Margin="0,20,0,0"
                HorizontalOptions="CenterAndExpand"
                />
         
@@ -21,10 +21,11 @@
                >
             <StackLayout VerticalOptions="Center" Spacing="15">
                 <Image Source="https://www.eluniverso.com/resizer/L1OplhGB4exRq8l1As9VoOwnc1k=/1002x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/YJRXULH4PFGRBGT4YYZ7UKD4H4.jpg"/>
-                <Label Text="cm a m"
+                <Label Text="de divisas"
                        FontSize="40"
                        FontAttributes="Bold"
-                       HorizontalOptions="Center"/>
+                       HorizontalOptions="CenterAndExpand"
+                       />
                 <Button Text="Empezar"
                         BackgroundColor="Silver"
                         CornerRadius="10"
