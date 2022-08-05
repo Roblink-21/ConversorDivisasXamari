@@ -19,7 +19,7 @@ Debemos ingresar la cantidad, seleccionar el tipo de moneda que se está ingresa
 
 # MainPage
 
-![image](https://user-images.githubusercontent.com/58127103/182952970-2c534ea5-5183-4980-a2fb-008fedd488f2.png)
+![image](https://user-images.githubusercontent.com/58041699/182980284-7d5ae5ec-df62-4fce-a239-f261fa76f3d5.png)
 
 Monedas disponibles para la conversión
 
