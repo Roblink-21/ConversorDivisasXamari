@@ -29,3 +29,14 @@ Monedas disponibles para la conversión
 
 ![image](https://user-images.githubusercontent.com/58127103/182953139-9e83d5dd-f699-4805-b798-e149dfcc1ff0.png)
 
+# Funcionamiento en celular modelo Samsung Galaxy J6
+
+![1](https://user-images.githubusercontent.com/58127103/182977612-d90d52e2-3c87-42dd-972e-7d0cce21b26e.png)
+
+![2](https://user-images.githubusercontent.com/58127103/182977622-37ddb5ab-7211-4be9-811e-2682f142fd68.png)
+
+![3](https://user-images.githubusercontent.com/58127103/182977632-6a05c2c0-80fa-4d61-b9bf-a50b5eac994e.png)
+
+
+
+
